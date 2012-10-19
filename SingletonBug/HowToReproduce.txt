@@ -1,0 +1,11 @@
+in MainWindow.xaml on line 8 
+            Converter={x:Static App:HeightToTextConverter.Instance}, 
+change to
+            Converter={x:Static App:HeightToTextConverter.}, 
+run simple completion (ctrl+space) result:
+            Converter={x:Static App:Singleton.Instance}, 
+
+
+in MainWindow.xaml on line 10
+			Text="{Binding PiNumber, Source={x:Static App:SomeStaticDataProvider.Instance}}"
+resharper can not show you Property PiNumber in completion
