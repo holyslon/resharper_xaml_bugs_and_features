@@ -2,6 +2,9 @@
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "SingletonBug", "SingletonBug", "{69E8C01E-CDFB-47DF-A64D-3F024F2926B6}"
+	ProjectSection(SolutionItems) = preProject
+		SingletonBug\HowToReproduce.txt = SingletonBug\HowToReproduce.txt
+	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "App", "SingletonBug\App\App.csproj", "{A7AD8B12-7800-447C-BD19-E88C2CE3256B}"
 EndProject
