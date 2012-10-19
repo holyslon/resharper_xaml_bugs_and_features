@@ -1,0 +1,2 @@
+in LibraryWithViews in Style.xaml on line 4
+ it can not find reference for {StaticResource RedColor}
