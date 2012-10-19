@@ -4,3 +4,9 @@ obj
 
 # mstest test results
 TestResults
+
+#resharper folders
+_ReSharper*
+
+#visual studio solution files
+*.suo
